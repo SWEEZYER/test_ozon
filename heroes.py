@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://akabab.github.io/superhero-api/api/all.json"
+API_URL = "https://akgabab.github.io/superhero-api/api/all.json"
 
 EMPTY_OCCUPATIONS = ["-", "", "none", "unknown"]
 
