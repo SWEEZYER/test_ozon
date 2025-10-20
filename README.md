@@ -11,7 +11,11 @@
     ```bash
     python -m venv venv
     ```
-
+    *Активация Venv:*
+    ```bash
+    venv\Scripts\activate
+    ```
+    
 2.  **Установите зависимости:**
     ```bash
     pip install -r requirements.txt
