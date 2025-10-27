@@ -26,4 +26,4 @@
 
 
 ```bash
-pytest
+pytest -v

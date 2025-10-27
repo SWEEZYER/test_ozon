@@ -7,7 +7,7 @@ EMPTY_OCCUPATIONS = ["-", "", "none", "unknown"]
 
 def _get_all_heroes():
     try:
-        response = requests.get(API_URL, timeout=10)
+        response = requests.get(API_URL)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
